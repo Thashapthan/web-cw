@@ -1,0 +1,162 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1100px;
+    height: 100px;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 300px;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    background-color: black;
+}
+.B{
+    /* width: 300px; */
+    /* margin-right: 20px; */
+    flex: 1;
+   
+  
+}
+.nav-bar-button {
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #ffd300;
+    color: black;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 70px;
+    width: 120px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    
+    
+    
+}
+button:hover{
+    opacity: 0.8;
+    color:black;
+    transition: 0.2s;
+}
+
+.Logo{
+  width: 120px; 
+  border-radius: 85px;
+}
+
+body {
+    background-image: url("assets/aboutBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.page-heading {
+    font-size: 6rem;
+    width: 500px;
+    margin-top: 200px;
+    margin-left: 200px;
+    padding: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-family: monospace;
+    border: 1px solid #fff;
+    box-shadow: 1px 3px 3px 3px #ffd300;
+}
+
+.member-details {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    gap: 100px;
+}
+
+.student1, .student2, .student3, .student4 {
+    box-sizing: border-box;
+    height: 250px;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    transition: 2s;
+}
+
+.student1:hover, .student2:hover, .student3:hover, .student4:hover {
+    height: 400px;
+}
+
+.studentImage {
+    box-sizing: border-box;
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+
+.studentImage img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 250px;
+}
+
+.studentDetails {
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-color: #ffd300;
+    margin-top: 0;
+    padding-top: 0;
+    width: auto;
+}
+
+h1, .student_role, .email {
+    font-family: monospace;
+    color: #ffffff;
+}
+
+h1 {
+    padding-top: 20px;
+}
+
+.email {
+    padding-bottom: 20px;
+}
+
+
+footer {
+    background-color: #ffd401;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+#copy-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.copy-right-sec a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.copy-right-sec a:hover {
+    color: #007bff;
+}
+  

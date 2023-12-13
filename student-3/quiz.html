@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz | Visual Factory</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="header">
+        <div >
+            <img class="Logo" src="assets/site_logo.jpg" alt="">
+            </div>
+        <div class="B">
+            <button class="nav-bar-button" onclick="document.location='../student-1/presentation-page.html'">Home</button>
+        </div>
+        <div class="B">
+            <button class="nav-bar-button" onclick="document.location='../student-2/cw_form.html'">Comments</button>
+        </div>
+        <div class="B">
+            <button class="nav-bar-button" onclick="document.location='../student-1/buy-products.html'">Shop</button>
+        </div>
+        <div class="B">
+            <button class="nav-bar-button" onclick="document.location='quiz.html'">Quiz</button>
+        </div>
+        <div class="B">
+            <button class="nav-bar-button" onclick="document.location='../student-4/html-student4/SVGSitemap.html'">SiteMap</button>
+        </div>
+        <div class="B">
+            <button class="nav-bar-button" onclick="document.location='aboutus.html'">AboutUs</button>
+        </div>
+        <div class="B">
+            <button class="nav-bar-button" onclick="document.location='../student-4/html-student4/ThumbnailImages.html'">Gallery</button>
+        </div>
+    </div>
+    
+    <div class="title">
+        Marvel Movie Quiz
+    </div>
+
+    <!--main div which contains all the quiz div-->
+    <div class="start-quiz-div">
+        <!--start quiz button-->
+        <button class="start-bt" id="start-bt">
+            start quiz
+        </button>
+
+        <!--quiz question and answer display div-->
+        <div class="quiz-questions-div" id="quiz-questions-div">
+            <div class="row quiz-details">
+                <div class="no-of-question" id="no-of-question">
+                    Question 1 of 10
+                </div>
+                <div class="score-of-quiz" id="score-of-quiz">
+                    Score : 0/10
+                </div>
+            </div>
+            <div class="row question" id="question">
+                Question 1?
+            </div>
+            <div class="row quiz-answers" id="quiz-answers">
+                <button class="answers-choice" id="answer-1">Answer 1</button>
+                <button class="answers-choice" id="answer-2">Answer 2</button>
+                <button class="answers-choice" id="answer-3">Answer 3</button>
+                <button class="answers-choice" id="answer-4">Answer 4</button>
+            </div>
+            <div class="buttons-quiz">
+                <button class="next-question-bt" id="next-question-bt">Next</button>
+                <button class="cancel-question-bt" id="cancel-question-bt">Cancel</button>
+            </div>
+        </div>
+    
+        <!--finished quiz display div with details of performance -->
+        <div class="finished-quiz-div" id="finished-quiz-div">
+            <h1>Congratulations, Quiz Completed! </h1>
+            <h2 id="score-quiz">Score: 10/10</h2>
+            <p class="performance" id="performance-good">Excellent Marks, Keep up</p>
+            <p class="performance" id="performance-bad">Good work, Do well in next try</p>
+            <button class="start-again" id="start-again">Start Again</button>
+        </div>
+    </div>
+    
+
+
+
+    <footer>
+        <div id="copy-right">
+            <div class="footer-logo footer-div">
+                <a href="../student-1/presentation-page.html">
+                    <img src="assets/site_logo.jpg" alt="site-logo" height="100">
+                </a>
+            </div>
+            <div class="copy-right-sec footer-div">
+                <p>&copy; 2023 Visual Factory | Designed By <a href="thashapthan.html">Thashapthan</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
