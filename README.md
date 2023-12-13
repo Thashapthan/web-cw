@@ -1,0 +1,1 @@
+I created a dynamic quiz page, designed a unique page editor, and developed an interactive student details page. Additionally, I integrated a provided navigation bar, and applied additional CSS for creative touches, such as subtle animations and box shadow effects. 
